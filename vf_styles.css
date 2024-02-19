@@ -1,0 +1,321 @@
+body {
+	font-family: "Trebuchet MS";
+	font-size: 11px;
+}
+
+li::marker {
+	color: #000000;
+}
+
+label::before {
+	content: "";
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	background-color: #000000;
+	margin-right: 5px;
+	transform: translateY(-2px);
+}
+
+form label::before {
+	content: "";
+	width: 0;
+	height: 0;
+	margin-right: 0;
+}
+
+input[type="search"] {
+	border-radius: 0;
+}
+
+hr {
+	border: 1px solid #CCCCCC;
+	border-top: 0;
+	border-radius: 0;
+}
+
+input[type="radio"] {
+	margin: 0 10px 0 10px;
+}
+
+input::placeholder, textarea::placeholder {
+	font-family: "Trebuchet MS";
+	font-weight: normal;
+	font-size: 10px;
+}
+
+input, textarea {
+	font-family: "Trebuchet MS";
+	font-weight: normal;
+	font-size: 10px;
+}
+
+.center {
+	width: 760px;
+	height: 100%;
+	border: 0;
+	padding: 0;
+	border-spacing: 0;
+	margin: auto;
+}
+
+.sub {
+	float: left;
+	box-shadow: 5px 0 4px -5px #CCCCCC;
+	position: fixed;
+	height: 100%;
+}
+
+.sub, .sub tr, .sub td {
+	width: 160px;
+	height: 40px;
+	border: 0;
+	padding: 0;
+	border-spacing: 0;
+	margin: 0;
+}
+
+.sub select, .sub input {
+	border-top: 2px solid #979797;
+	border-right: 2px solid #E3E3E3;
+	border-bottom: 2px solid #E3E3E3;
+	border-left: 2px solid #979797;
+}
+
+.main {
+	width: 580px;
+	float: right;
+	border-top: 0;
+	border-bottom: 0;
+	padding: 0;
+	border-spacing: 0;
+}
+
+.main-form {
+	width: 580px;
+	float: right;
+	border: 0;
+	padding: 0;
+	border-spacing: 0;
+}
+
+.main th {
+	border: 0;
+	padding: 0;
+	border-spacing: 0;
+	text-align: left;
+}
+
+.main td {
+	border: 0;
+	padding: 0;
+	border-spacing: 0;
+}
+
+.main-text {
+	padding: 0 32px 0 32px;
+	text-align: justify;
+}
+
+.main-sub-link {
+	width: 80%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	float: right;
+	box-shadow: 5px 5px 5px -5px #000000;
+}
+
+.top-nav {
+	width: 580px;
+	float: right;
+	padding-top: 4px;
+	padding-bottom: 2px;
+	border-top: 1px solid #CCCCCC;
+}
+
+.top-nav a {
+	margin-right: 40px;
+	margin-left: 40px;
+	text-decoration: none;
+	font-size: 12px;
+	color: #000000;
+}
+
+.top-nav a::before {
+	content: "";
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	background-color: #000000;
+	margin-right: 5px;
+	transform: translateY(-2px);
+}
+
+.top-nav-upper {
+	text-align: right;
+	border: 0;
+	padding: 0;
+	border-spacing: 0;
+}
+
+.top-nav-upper a {
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 9px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.top-nav-pipe {
+	color: #CCCCCC;
+	display: inline;
+}
+
+.heading {
+	font-family: bahnschrift;
+	border-left: 3px solid #93C318;
+	font-weight: normal;
+}
+
+.topic li {
+	width: 80%;
+	border-bottom: 1px dotted #777777;
+	color: #777777;
+	margin: 5px 0px 5px 80px;
+}
+
+.topic a {
+	color: #777777;
+	text-decoration: none;
+}
+
+.topic a:visited {
+	color: #777777;
+}
+
+.btn-style-removed {
+	background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.dropbtn {
+	width: 86%;
+    border-radius: 0;
+	background-color: #FFFFFF;
+	font-family: "Trebuchet MS";
+	font-weight: normal;
+	font-size: 11px;
+	text-align: center;
+}
+
+.prevent-select {
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.card {
+	width: 97%;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	text-align: justify;
+	box-shadow: 5px 0 4px -5px #CCCCCC;
+	padding: 10px;
+}
+
+.card img {
+	width: 184px;
+	margin: auto;
+}
+
+.card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.text-section h3 {
+	font-family: bahnschrift;
+	font-weight: normal;
+	color: #93C318;
+	border-left: 3px solid #93C318;
+	margin: 5px 0 0 0;
+}
+
+.text-section p {
+	text-align: justify;
+}
+
+.description {
+	color: #777777;
+	text-align: left;
+	margin: 12px 0 12px 0;
+}
+
+.fullField {
+	width: 100%;
+	max-width: 250px;
+}
+
+.halfField {
+	width: 120px;
+	max-width: 250px;
+}
+
+.gallery img {
+	background-color: #EFEFEF;
+	border: 1px solid #D1D5D4;
+	border-radius: 3px;
+	box-shadow: 2px 2px 3px #EFEFEF;
+	margin: 2px;
+	padding: 5px;
+}
+
+.gallery a {
+	height: 1080px;
+}
+
+.affiliates td {
+	width: 277px;
+	height: 68px;
+}
+
+.affiliates p {
+	font-family: verdana;
+	font-size: 9px;
+	margin-left: 9px;
+}
+
+.affiliates a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.affiliates a:visited {
+	color: #000000;
+}
+
+.sitemap {
+	font-family: verdana;
+	font-size: 9px;
+	border-top: 1px solid #CCCCCC;
+}
+
+.sitemap a {
+	text-decoration: none;
+	color: #FD7801;
+}
+
+.sitemap a:visited {
+	color: #FD7801;
+}
+
+.copyright {
+	font-size: 9px;
+	color: #777777;
+}
